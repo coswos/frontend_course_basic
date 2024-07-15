@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 83%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 1% 1%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+.logo_header {
+    width: 0.125%;
+    height: 0.647%;
+    display: inline-block;
+    min-width: min-content;
+}
+
+.nav_links {
+    width: max-content;
+    vertical-align: center;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 10px;
+    display: inline-block;
+    min-width: min-content;
+}
+
+.login_button {
+    width: 0.083%;
+    height: 0.66%;
+    display: flex;
+    justify-content: end;
+    min-width: min-content;
+
+}
+
+main h1 span {
+    color: green;
+}
+
+.left_col h1{
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.diff_p{
+    font-weight: 400;
+    text-transform: none;
+    font-family: "Advent Pro", sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.left_col{
+    width: 45%;
+    vertical-align: center;
+    margin: auto auto;
+}
+
+.right_col img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.right_col{
+    width: 35%;
+    align-self: inherit;
+    vertical-align: center;   
+    margin: auto auto;
+}
+
+main .container{
+    display: flex;
+    justify-content: center;
+}
+
+.main_button{
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;    
+    margin-top: 0.73%;
+}
